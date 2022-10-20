@@ -1,7 +1,67 @@
 body {
-  background-color: rgb(240, 240, 240);
+ 	background-color: rgb(240, 240, 240);
+	font-family: cursive;
+	margin: 0px;
 }
 
-h1 {
-	font-family: cursive;
+
+header {
+	background-color: rgb(50, 50, 60);
+}
+
+
+h1{
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+.construction {
+	color : red;
+}
+.header {
+	color: rgb(240, 240, 240);
+}
+
+
+.presentation {
+	color: rgb(240, 240, 240);
+	margin-left: 15%;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 1em;
+	width: 70%;
+	padding-bottom: 5px;
+}
+.bouton_visite {
+	background-color: rgb(50, 50, 60);
+	color: rgb(240, 240, 240);
+	border-radius: 1em;
+	width: 30%;
+	height: 1.5em;
+	margin-left: 35%;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  max-width: 400px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+img {
+  max-width: 300px;
 }
