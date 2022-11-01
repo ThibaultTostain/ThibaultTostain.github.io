@@ -167,8 +167,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 0;
-  margin: 20px 0;
+  padding: 2em 0 4em 0;
   list-style: none;
   align-items: center;
 }
@@ -199,6 +198,7 @@ body {
 			}
 		.article_box .article_part .article_txt {
 			margin: 1em;
+			padding: 2em 0 1em 0;
 			color: black;
 		}
 		.article_box .article_part .article_img {
@@ -246,6 +246,10 @@ body {
 	background-color: rgb(244, 121, 43);
 	color: rgb(14, 84, 139);
 }
+.hastag_creo{
+	background-color: rgb(255,255,255);
+	color: rgb(91, 183, 58);
+}
 .hastag_css{
 	background-color: rgb(21, 114, 183);
 	color: rgb(255, 255, 255);
@@ -274,7 +278,66 @@ body {
 	background-color: rgb(49, 76, 176);
 	color: rgb(255, 255, 255);
 }
+.hastag_proteus{
+	background-color: rgb(255,255,255);
+	color: rgb(0, 100, 110);
+}
 .hastag_python{
 	background-color: rgb(254, 209, 64);
 	color: rgb(56, 112, 161);
+}
+.hastag_soudure{
+	background-color: rgb(242, 242, 242);
+	color: rgb(5, 3, 5);
+}
+
+.bouton_lien {
+	font-size: 1em;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border-radius: 3em;
+	background-color: rgb(100, 100, 100);
+	color: rgb(255,255,255);
+	transition-duration: 200ms;
+}
+.bouton_lien:hover {
+	background-color: rgb(255,255,255);
+  backdrop-filter: blur(7px);
+	color: rgb(132, 240, 132);
+	box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, .2);
+	transition-duration: 200ms;
+}
+
+/*--- Contact ---*/
+
+
+.contact_box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 2em 0 2em 0;
+  list-style: none;
+  align-items: center;
+}
+
+.contact_box p{
+	  padding: 2em 0 1em 0;
+}
+
+.contact_box li{
+	  padding: 5px;
+	  width: 40%;
+	  margin-top: 10px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 1em;
+	  text-align: center;
+}
+
+.contact_box li a {
+	color: rgb(132, 240, 132);
+	text-decoration: none;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: rgb(0,0,0,.7);
 }
