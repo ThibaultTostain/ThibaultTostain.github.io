@@ -11,50 +11,127 @@
 
 	<body>
 
-		<header>
+		<nav class="navbar">
+			<a href="#" class="logo">Portfolio</a>
+			<div class="nav-links">
+				<ul>
+					<li class="active"><a class="menu_link" href="index.html">Electroniques</a></li>
+					<li><a class="menu_link" href="actualites.html">Programmation</a></li>
+					<li><a class="menu_link" href="membres.html">Mécanique</a></li>
+					<li><a class="menu_link" href="partenaires.html">Gestion</a></li>
+					<li><a class="menu_link" href="partenaires.html">Art</a></li>
+				</ul>
+			</div>
+			<span class="burger-icon menu-hamburger">
+			    <span></span>
+			    <span></span>
+				<span></span>
+			</span>
+		</nav>
 
-			<h1 class="construction" class="header">!! Site en construction !!</h1>
-
-			<h1 class="header">Portfolio de Thibault Tostain</h1>
-
-			<p class="presentation">Bonjour dans mon site-portfolio, ici vous trouverez quelqu'un de mes projets que j'ai envie de mettre en avant. Il y a plusieurs catégories, alors profitez bien ;)</p>
-
+		<header class="header">
+			<h1 class="header_titre">Portfolio de Thibault Tostain</h1>
+			<p class="header_txt">Je suis étudiant en 3ème année d'école d'ingénieur à Strasbourg à la recherche de découverte en testant différents domaines.</p>
 		</header>
 
-		<ul class="flex-container">
-			<li class="flex-item">
-				<h1>Electroniques</h1>
-				<p>Je suis en étude d'ingénieur génie électrique, et passionné par ça. Vous pourrez donc trouver de nombreux projets en lien avec l'électronique</p>
-				<a href="portfolio/electronique.html" ><p class="bouton_visite">Regarder</p></a>
+		<ul class="article_box article_electronique">
+			<li class="article_part">
+				<h1 class="article_titre">Electroniques</h1>
+				<ul class="article_hastag">
+					<li>#Electroniques</li>
+					<li class="hastag_arduino">#Arduino</li>
+					<li class="hastag_kicad">#KiCad</li>
+				</ul>
+				<img class="article_img_portable" src="img/presentation_electronique.png">
+				<p class="article_txt">Je suis en étude d'ingénieur génie électrique, et passionné par ça. Vous pourrez donc trouver de nombreux projets en lien avec l'électronique</p>
+				<a class="bouton_lien" href="portfolio/electronique.html" >Regarder</a>
 			</li>
-			<li class="flex-item">
-				<div><img src="img/electronique_presentation_fake_pexels.jpeg"></div>
-			</li>
-		</ul>
-
-
-		<ul class="flex-container">
-			<li class="flex-item">
-				<div><img src="img/art_presentation_fake_pexels.webp"></div>
-			</li>
-			<li class="flex-item">
-				<h1>Art</h1>
-				<p>Depuis toujours j'ai aimé la liberté et les difficultés que représente l'expression artistique, je n'ai malheureusement que très tardivement prit l'habitude de garder mes réalisations de côté. Mais en voici certaine</p>
-				<a href="portfolio/art.html"><p class="bouton_visite">Contempler</p></a>
+			<li class="article_part">
+				<img class="article_img" src="img/presentation_electronique.png">
 			</li>
 		</ul>
 
-		<ul class="flex-container">
-			<li class="flex-item">
-				<h1>Programmation</h1>
-				<p>La programmation est une étape obligé de nos jours, heureusement j'y prend du plaisir, voici donc quelque uns de mes projets</p>
-				<a href="portfolio/programmation.html"><p class="bouton_visite">Lire</p></a>
+		<ul class="article_box article_programmation">
+			<li class="article_part">
+				<img class="article_img" src="img/programmation_presentation_fake_pexels.jpeg">
 			</li>
-			<li class="flex-item">
-				<div><img src="img/programmation_presentation_fake_pexels.jpeg"></div>
+			<li class="article_part">
+				<h1 class="article_titre">Programmation</h1>
+				<ul class="article_hastag">
+					<li class="hastag_arduino">#Arduino</li>
+					<li>#html-css</li>
+					<li>#Java</li>
+					<li>#Python</li>
+				</ul>
+				<img class="article_img_portable" src="img/programmation_presentation_fake_pexels.jpeg">
+				<p class="article_txt">La programmation est une étape obligé de nos jours et qui permet de réaliser de nombreux projets, en voici donc quelques uns.</p>
+				<a class="bouton_lien" href="portfolio/electronique.html" >Regarder</a>
+			</li>
+		</ul>
+
+		<ul class="article_box article_mecanique">
+			<li class="article_part">
+				<h1 class="article_titre">Mécanique</h1>
+				<ul class="article_hastag">
+					<li>#FreeCad</li>
+					<li>#Impression3D</li>
+				</ul>
+				<img class="article_img_portable" src="img/programmation_presentation_fake_pexels.jpeg">
+				<p class="article_txt">La mécanique est un domaine incontournble de l'ingénieurie. En avoir des bases permet très rapidement de mettre son projet en situation réel.</p>
+				<a class="bouton_lien" href="portfolio/electronique.html" >Regarder</a>
+			</li>
+			<li class="article_part">
+				<img class="article_img" src="img/programmation_presentation_fake_pexels.jpeg">
+			</li>
+		</ul>
+
+		<ul class="article_box article_gestion">
+			<li class="article_part">
+				<img class="article_img" src="img/art_presentation_fake_pexels.webp">
+			</li>
+			<li class="article_part">
+				<h1 class="article_titre">Gestion</h1>
+				<ul class="article_hastag">
+					<li>#Obsidian</li>
+					<li>#Notion</li>
+					<li>#Github</li>
+					<li>#LibreOffice</li>
+					<li>#Google Drive</li>
+				</ul>
+				<img class="article_img_portable" src="img/art_presentation_fake_pexels.webp">
+				<p class="article_txt">La gestion n'est pas souvent mise dans le portfolio, c'est pourtant pour moi l'un des axes primordials pour réussir un projet, particulièrement si l'on est plusieurs. J'ai donc décidé de partager ici des expériences de gestion que j'ai eu, avec les solutions associés, pour comprendre le résonnement et le savoir derrière ma façon de gérer un projet.</p>
+				<a class="bouton_lien" href="portfolio/art.html">Admirer</a>
+			</li>
+		</ul>
+
+		<ul class="article_box article_art">
+			<li class="article_part">
+				<h1 class="article_titre">Art</h1>
+				<ul class="article_hastag">
+					<li>#Inktober</li>
+					<li class="hastag_blender">#Blender</li>
+					<li>#Krita</li>
+					<li>#Inkscape</li>
+					<li>#Godot</li>
+				</ul>
+				<img class="article_img_portable" src="img/art_presentation_fake_pexels.webp">
+				<p class="article_txt">Depuis toujours j'ai aimé la liberté et les difficultés que représente l'expression artistique, je n'ai malheureusement que très tardivement prit l'habitude de garder mes réalisations de côté. Mais en voici certaines</p>
+				<a class="bouton_lien" href="portfolio/art.html">Contempler</a>
+			</li>
+			<li class="article_part">
+				<img class="article_img" src="img/art_presentation_fake_pexels.webp">
 			</li>
 		</ul>
 
 	</body>
+
+	<script>
+	        const menuHamburger = document.querySelector(".burger-icon")
+	        const navLinks = document.querySelector(".nav-links")
+	 
+	        menuHamburger.addEventListener('click',()=>{
+	        navLinks.classList.toggle('mobile-menu')
+	        })
+	</script>
 
 </html>
