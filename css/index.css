@@ -35,6 +35,10 @@ body {
 	  color: black;
 		}
 
+	.navbar .active {
+	  color: rgb(132, 240, 132);
+	}
+
 		.navbar .nav-links ul {
 		  display: flex;
 		}
@@ -44,6 +48,8 @@ body {
 			}
 
 				.navbar .nav-links ul li a {
+  				padding: 1em;
+  				border-radius: 1em;
 				  color: #2E3244;
 				  font-weight: bold;
 				  font-size: 1em;
@@ -51,12 +57,13 @@ body {
 				}
 
 					.navbar .nav-links ul li.active a {
-					  color: #F1895C;
-					  font-weight: 600; 
+  					color: rgb(132, 240, 132);
+  					font-weight: 600; 
 					}
 
 					.navbar .nav-links ul li a:hover {
-					  color: #F1895C;
+	  				color: rgb(132, 240, 132);
+	  				background-color: rgba(255, 255, 255,0.3);
 					  transition-duration: 200ms;
 					}
 
