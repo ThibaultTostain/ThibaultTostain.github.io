@@ -161,53 +161,69 @@ body {
 		}
 }
 
-/*------- Article -------*/
+/*------- ul - li -------*/
 
-.article_box {
+.ul_box {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   padding: 2em 0 4em 0;
   list-style: none;
-  align-items: center;
 }
-	.article_box .article_part {
+	.ul_box .ul_li {
 	  padding: 5px;
-	  width: 40%;
 	  margin-top: 10px;
+	  margin-bottom: 30px;
 	  color: white;
 	  font-weight: bold;
 	  font-size: 1em;
 	  text-align: center;
 	}
-		.article_box .article_part .article_titre {
+		.ul_box .ul_li .ul_h1 {
 			margin: 0.2em 0;
 			color: black;
 		}
-		.article_box .article_part .article_hastag{
+		.ul_box .ul_li .ul_hastag{
 		  display: flex;
 		  text-align: center;
 			display: inline-block;
 		}
-			.article_box .article_part .article_hastag li{
+			.ul_box .ul_li .ul_hastag li{
 			  margin: auto;
 			  border-radius: 1em;
 			  padding: 0 1em;
 			  display: inline-block;
 			  margin: 0.1em;
 			}
-		.article_box .article_part .article_txt {
+		.ul_box .ul_li .ul_p {
 			margin: 1em;
 			padding: 2em 0 1em 0;
 			color: black;
 		}
-		.article_box .article_part .article_img {
+		.ul_box .ul_li .ul_img {
 			max-width: 90%;
 			max-height: 90%;
 			margin: 5%;
 		}
+		.ul_box .ul_li .ul_img {
+			max-width: 90%;
+			max-height: 90%;
+			margin: 5%;
+		}
+
+
+/*------- Article -------*/
+
+
+.article_box {
+  align-items: center;
+}
+
+	.article_box .article_part {
+	  width: 40%;
+	}
 		.article_box .article_part .article_img_portable{
-  		display: none;
+			display: none;
 			max-width: 90%;
 			max-height: 90%;
 			margin: 5%;
@@ -224,7 +240,7 @@ body {
 }
 
 @media screen and (max-width: 900px){
-	.article_box .article_part {
+	.article_box .article_part{
 	  width: 80%;
 	}
 	.article_box .article_part .article_img{
@@ -236,7 +252,32 @@ body {
 }
 
 
-/* a b c d e f g h i j k l m n o p q r s t u v w x y z */
+/*------- Projet -------*/
+
+
+.projet_box .projet_part {
+	width: 25%;
+	margin: 0 3%;
+	padding-bottom: 2em;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 3em;
+	box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, .2);
+}
+
+.projet_box .projet_part .projet_txt{
+	padding: 0 0 1em 0;
+}
+
+@media screen and (max-width: 900px){
+	.projet_box .projet_part {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+}
+
+
+/* HASTAG : a b c d e f g h i j k l m n o p q r s t u v w x y z */
+
 
 .hastag_arduino{
 	background-color: rgb(0, 129, 132);
