@@ -193,11 +193,11 @@ body {
 	.ul_box .ul_li {
 	  padding: 5px;
 	  margin-top: 10px;
-	  margin-bottom: 30px;
 	  color: white;
 	  font-weight: bold;
 	  font-size: 1em;
 	  text-align: center;
+		transition-duration: 200ms;
 	}
 		.ul_box .ul_li .ul_h1 {
 			margin: 0.2em 0;
@@ -240,6 +240,7 @@ body {
 
 	.article_box .article_part {
 	  width: 40%;
+		transition-duration: 200ms;
 	}
 
 	.article_box .article_li_img {
@@ -426,4 +427,56 @@ body {
 
 .savoir_manette_infos.view_on {
 	display: block !important;
+}
+
+.change{
+	background-color: red;
+}
+
+.small {
+	max-width: 5% !important;
+	margin: 0 1% !important;
+	transition-duration: 200ms;
+}
+
+.small p, .small h1 {
+	display: none;
+	transition-duration: 200ms;
+}
+
+.big {
+	width: 70% !important;
+	margin: 0 !important;
+	transition-duration: 200ms;
+}
+
+.projet_elec{
+	width: 100%;
+	height: 3em;
+}
+
+.petit, .grand{
+	display: none;
+}
+
+.small .petit {
+	display: inline-block !important;
+	height: 50%;
+}
+
+.big .grand {
+	display: block !important;
+}
+
+.big .moyen, .small .moyen {
+	display: none;
+}
+
+.petit a {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	position: relative;
+	top: 100%;
+	font-size: 2em;
 }
