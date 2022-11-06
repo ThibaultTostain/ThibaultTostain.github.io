@@ -1,12 +1,12 @@
 /*@font-face {
-    font-family: mangabey;
-    src: url("../fonts/MangabeyRegular-rgqVO.otf") format("opentype");
+    font-family: "Raleway";
+    src: url("fonts/Raleway-VariableFont_wght.ttf") format("truetype"),
+    		url("fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype")
 }
-
 @font-face {
-    font-family: mangabey;
-    font-weight: bold;
-    src: url("../fonts/MangabeyRegular-rgqVO.otf") format("opentype");
+    font-family: "Raleway";
+    src: url("fonts/Raleway-VariableFont_wght.ttf") format("truetype"),
+    		url("fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype")
 }*/
 
 * {
@@ -14,8 +14,9 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-	font-family: cursive;
-	/*font-family: mangabey;*/
+	/*font-family: cursive;
+	font-family: "Raleway";*/
+	font-family: Comic sans MS;
 }
 
 body {
