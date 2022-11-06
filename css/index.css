@@ -176,7 +176,7 @@ body {
 /*------- ul - li -------*/
 
 .ul_box {
-  display: flex;
+  display: flex !important;
   flex-flow: row wrap;
   justify-content: center;
   padding: 2em 0 4em 0;
@@ -295,6 +295,7 @@ body {
 
 .projet_box .projet_part .projet_txt{
 	padding: 0 0 1em 0;
+	font-weight: normal;
 }
 
 @media screen and (max-width: 900px){
@@ -305,6 +306,31 @@ body {
 }
 
 
+/*------- Explications -------*/
+
+
+.grand p{
+	color: black;
+	font-weight: normal;
+}
+
+.explication_box{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.explication_box .explication_part.txt {
+	color: black;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+}
+.explication_box .explication_part.img{
+	color: red;
+	width: 30%;
+	margin: 0;
+	padding: 0;
+}
 /* HASTAG : a b c d e f g h i j k l m n o p q r s t u v w x y z */
 
 
@@ -450,7 +476,7 @@ body {
 	transition-duration: 200ms;
 }
 
-.projet_elec{
+.projet{
 	width: 100%;
 	height: 3em;
 }
@@ -479,4 +505,23 @@ body {
 	position: relative;
 	top: 100%;
 	font-size: 2em;
+}
+
+/* Version téléphone */
+
+
+.telephone {
+	display: none;
+}
+.ordinateur{
+	display: block;
+}
+
+@media screen and (max-width: 900px){
+	.telephone {
+		display: block;
+	}
+	.ordinateur{
+		display: none;
+	}
 }
