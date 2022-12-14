@@ -24,6 +24,10 @@ body {
  	background-color: white;
 }
 
+a {
+    color: rgb(132, 240, 132);
+}
+
 /*------- Navbar -------*/
 
 .navbar {
