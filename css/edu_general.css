@@ -96,7 +96,7 @@ a {
 		  margin: 6px 0;
 		}
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
 
   .navbar{
     padding: 0;
@@ -149,6 +149,8 @@ a {
 
 }
 
+
+
 /*------- Header -------*/
 
 .header{
@@ -159,7 +161,7 @@ a {
 }
 		.header .header_titre {
 			margin: 0;
-			max-width: 750px;
+			max-width: 650px;
 			font-size: 80px;
 			line-height: 90px;
 		}
@@ -168,7 +170,7 @@ a {
 			max-width: 60%;
 		}
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
 	.header .header_titre {
 			font-size: 35px;
 			line-height: 45px;
@@ -263,17 +265,14 @@ a {
 			margin: 5%;
 		}
 
-.article_electronique {
-	background-color: rgb(196, 223, 170);
+.article_insa {
+	background-color: #e12320;
 }
-.article_mecanique{
-	background-color: rgb(215, 204, 200);
-}
-.article_art {
- background-color: rgb(206, 147, 216);
+.article_internet {
+ background-color: #4e87b9;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
 	.article_box .article_part{
 	  width: 80%;
 	}
@@ -303,7 +302,7 @@ a {
 	font-weight: normal;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
 	.projet_box .projet_part {
 		width: 80%;
 		margin-bottom: 30px;
@@ -444,7 +443,7 @@ a {
 }
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
 	.contact_box .article_part{
 	  width: 90%;
 	  font-size: 0.7em;
@@ -522,7 +521,7 @@ a {
 	display: block;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 900px){
 	.telephone {
 		display: block;
 	}

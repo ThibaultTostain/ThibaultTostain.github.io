@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script>
+      var   converter = new showdown.Converter(),
+            text      = 'file.md',
+            html      = converter.makeHtml(text);
+        document.querySelector('#content').innerHTML = html;
+    </script>
+    <div id="contentb"></div>
+    <script>
+        fetch('https://raw.githubusercontent.com/showdownjs/showdown/master/README.md').then(response => response.text()).then(data =>{
+      var   converter = new showdown.Converter(),
+            text      = data,
+            html      = converter.makeHtml(text);
+        document.querySelector('#contentb').innerHTML = html;
+            
+        })
+    </script>
+  </body>
+</html>
