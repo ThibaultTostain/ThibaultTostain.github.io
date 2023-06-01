@@ -448,28 +448,31 @@ a {
   padding: 2em 0 2em 0;
   list-style: none;
   align-items: center;
+    color: ghostwhite !important;
+    background-color: black;
 }
 
 .contact_box p{
 	  padding: 2em 1em 1em 1em;
+    color: ghostwhite;
 }
 
 .contact_box li{
 	  padding: 5px;
 	  width: 40%;
 	  margin-top: 10px;
-	  color: white;
+    color: ghostwhite;
 	  font-weight: bold;
 	  font-size: 1em;
 	  text-align: center;
+    padding-top: 20px;
 }
 
 .contact_box li a {
-	color: rgb(132, 240, 132);
 	text-decoration: none;
 	padding: 1em;
 	border-radius: 1em;
-	background-color: rgb(0,0,0,.7);
+    color: ghostwhite !important;
 }
 
 
