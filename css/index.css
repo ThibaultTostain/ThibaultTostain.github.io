@@ -152,18 +152,18 @@ a {
 /*------- Header -------*/
 
 .header{
-	padding-top: 100px;
+	/*padding-top: 100px;*/
 	padding-bottom: 80px;
-	max-width: 80%;
+	max-width: 95%;
 	margin: auto;
 }
-		.header .header_titre {
+		.header_titre {
 			margin: 0;
 			max-width: 750px;
 			font-size: 80px;
 			line-height: 90px;
 		}
-		.header .header_txt {
+		.header_txt {
 			margin: 20px 0;
 			max-width: 60%;
 		}
@@ -179,6 +179,39 @@ a {
 }
 
 /*------- ul - li -------*/
+.ul_box_header {
+  display: flex !important;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 2em 0 4em 0;
+  list-style: none;
+    align-items: center;
+}
+
+    .ul_box_header .ul_txt {
+      width: 100%;
+	  font-weight: bold;
+	  margin: 3em 10%;
+	}
+
+	.ul_box_header .ul_li {
+	  padding: 5px;
+	  margin-top: 10px;
+	  font-weight: bold;
+	  font-size: 1em;
+    transition-duration: 200ms;
+	}
+        
+.ul_box_header .ul_li_titre{
+    max-width: 60%;
+}       
+.ul_box_header .ul_li_img{
+    max-width: 30%;
+}
+
+.ul_li_img .ul_img{
+    max-width: 100%;
+}
 
 .ul_box {
   display: flex !important;
