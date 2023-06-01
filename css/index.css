@@ -154,7 +154,7 @@ a {
 .header{
 	/*padding-top: 100px;*/
 	padding-bottom: 80px;
-	max-width: 95%;
+	max-width: 90%;
 	margin: auto;
 }
 		.header_titre {
@@ -207,10 +207,6 @@ a {
 }       
 .ul_box_header .ul_li_img{
     max-width: 30%;
-}
-
-.ul_li_img .ul_img{
-    max-width: 100%;
 }
 
 .ul_box {
