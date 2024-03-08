@@ -2,49 +2,51 @@
 
 <html>
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-		<title> Portfolio Thibault Tostain </title>
-		<link rel="stylesheet" href="../css/index.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<title> Portfolio Thibault Tostain </title>
+	<link rel="stylesheet" href="../css/index.css">
+</head>
 
-	<body>
+<body>
 
-		<nav class="navbar">
-			<a href="#" class="logo active">Portfolio</a>
-			<div class="nav-links">
-				<ul>
-					<li><a class="menu_link" href="#electronique">Electronics</a></li> 
-					<li><a class="menu_link" href="#programmation">Programmation</a></li>
-					<li><a class="menu_link" href="#mecanique">Mechanics</a></li>
-					<li><a class="menu_link" href="#contact">Contact</a></li>
-					<li><a class="menu_link" href="../index.html">EN / FR</a></li>
-				</ul>
-			</div>
-			<span class="burger-icon menu-hamburger">
-			    <span></span>
-			    <span></span>
-				<span></span>
-			</span>
-		</nav>
+	<nav class="navbar">
+		<a href="#" class="logo active">Portfolio</a>
+		<div class="nav-links">
+			<ul>
+				<li><a class="menu_link" href="#electronique">Electronics</a></li>
+				<li><a class="menu_link" href="#programmation">Programmation</a></li>
+				<li><a class="menu_link" href="#mecanique">Mechanics</a></li>
+				<li><a class="menu_link" href="#contact">Contact</a></li>
+				<li><a class="menu_link" href="../index.html">EN / FR</a></li>
+			</ul>
+		</div>
+		<span class="burger-icon menu-hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</span>
+	</nav>
 
-		<header class="header">
-            <ul class="ul_box_header">
+	<header class="header">
+		<ul class="ul_box_header">
 			<li class="ul_li ul_li_titre">
-                <h1 class="header_titre">Portfolio of Thibault Tostain</h1>
-                <p class="header_txt">I am a student in my 3rd year of Electrical Engineering school in Strasbourg and through this website, I invite you to discover my portfolio.</p>
+				<h1 class="header_titre">Portfolio of Thibault Tostain</h1>
+				<p class="header_txt">I am a student in my 3rd year of Electrical Engineering school in Strasbourg and
+					through this website, I invite you to discover my portfolio.</p>
 				<!--<img class="ul_img_portable article_img_portable" src="../img/presentation_electronique.png">-->
 			</li>
 			<li class="ul_li ul_li_img">
-                <iframe class="ul_img article_img" width="384" height="216" src="https://www.youtube.com/embed/URgxy2edX7Y"> </iframe>
+				<iframe class="ul_img article_img" width="384" height="216"
+					src="https://www.youtube.com/embed/URgxy2edX7Y"> </iframe>
 			</li>
-            </ul>
-		</header>
+		</ul>
+	</header>
 
 
-<!--
+	<!--
 *
 *
 *
@@ -59,142 +61,216 @@ Electronique
  -->
 
 
-		<ul id="electronique" class="ul_box article_box article_electronique">
-			<li class="ul_li article_part">
-				<h1 class="ul_h1 article_titre">Electronics</h1>
-				<ul class="ul_hastag article_hastag">
-					<li class="hastag_soudure">#Soudure</li>
-					<li class="hastag_proteus">#Proteus</li>
-					<li class="hastag_kicad">#KiCad</li>
-					<li class="hastag_creo">#Logisim</li>
-					<li class="hastag_soudure">#VHDL</li>
-				</ul>
-				<img class="ul_img_portable article_img_portable" src="../img/presentation_electronique.png">
-				<p class="ul_p article_txt">My passion having led me to study electrical engineering, I have carried out many projects, from the simple adapter to the console controller, including the famous line-following robot.</p>
-				<!--<a class="bouton_lien" href="#projet_elec">Visitez les projets</a>-->
-			</li>
-			<li class="ul_li article_part">
-				<img class="ul_img article_img" src="../img/presentation_electronique.png">
-			</li>
-			<p id="projet_elec" class="projet"></p>
-            <ul class="ul_box projet_box">
-<!-- Moniteur pour vélo -->
-				<li id="elec_a" class="ul_li projet_part elec_a">
-					<div class="petit">
-						<a class="elec_a_up_small" href="#projet_elec">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Bicycle monitor</h1>
-						<img class="ul_img projet_img" src="../img/tipe_velo_01.PNG">
-						<p class="ul_p projet_txt">During a project in connection with the school we had the possibility to choose our project. As we were cycling, my teammate and I chose to make a bicycle monitor that could calculate speed, distance travelled and manage session times. To this we added a jacket with a flashing light to ensure better safety.</p>
-						<a class="elec_a_up_med bouton_lien" href="#projet_elec"> Enlarge </a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Bicycle monitor</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>The objective of this project was to produce a system capable of effectively describing the activities of a cyclist. Although we initially opted for a prototype version on a board, we decided during the course of the project to produce an alpha capable of being used on a session.
-                                    </br>The problems of compactness and miniaturisation came up very quickly and I opted for SMD components, this being the first project where I used them. The choice of the placement of the main components on the board was also constrained by the desired sports ergonomics here.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/tipe_velo_01.PNG">
-								</li>
-							</ul>
-							<p>The board was made on Proteus, the electronic CAD software used by my school, and is 120*50 mm with 33 components and 73 tracks.
-                            </br>Once all the functionalities had been tested on a test board, I made the PCB in physics. However, the board had some manufacturing imperfections and was unusable, and due to lack of time I could not make a second one. I was however able to check the mechanical compatibility, and invite you to discover the mechanical part of this project that I also realized on <a href="https://github.com/ThibaultTostain/TIPE_velo">github</a> where you will find all the source files.</p>
-						</div>
-						<div class="telephone">
-							<p>The objective of this project was to produce a system capable of effectively describing the activities of a cyclist. Although we initially opted for a prototype version on a board, we decided during the course of the project to produce an alpha capable of being used on a session.</p>
-							<img class="ul_img projet_img" src="../img/tipe_velo_01.PNG">
-							<p>The problems of compactness and miniaturisation came up very quickly and I opted for SMD components, this being the first project where I used them. The choice of the placement of the main components on the board was also constrained by the desired sports ergonomics here.</p>
-							<p>The board was made on Proteus, the electronic CAD software used by my school, and is 120*50 mm with 33 components and 73 tracks.</br>Once all the functionalities were tested on a test board, I made the PCB in physics. However, the board had some manufacturing imperfections and remained unusable, and due to lack of time it was impossible for me to make a second one. I was however able to check the mechanical compatibility, and invite you to discover the mechanical part of this project that I also realized as well as its <a href="https://github.com/ThibaultTostain/TIPE_velo">github</a> where you will find all the source files.</p>
-						</div>
-						</br></br>
-						<a class="elec_a_down_big bouton_lien" href="#projet_elec">Shrink</a>
-					</div>
-				</li>
-<!-- Du transistor au cpu -->
-				<li id="elec_b" class="ul_li projet_part elec_b">
-					<div class="petit">
-						<a class="elec_b_up_small" href="#projet_elec">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">From transistor to CPU</h1>
-						<img class="ul_img projet_img" src="../img/cpu_01.png">
-						<p class="ul_p projet_txt">Always trying to understand how everything around me works, I came across processors and the question "how does it work? And what better way to answer it than to build one! I then opened Logisim Evolution, a logic simulation software, and still today I am working on my own RISC-V microprocessor.</p>
-						<a class="elec_b_up_med bouton_lien" href="#projet_elec">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">From transistor to CPU</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>The aim of this project is above all to understand the functioning and the steps of creation of a (micro) processor. So I decided to build one starting from transistors and going up to the etched chip.
-									</br>To do this, I use logisim-évolution, a logic simulation software capable of running small microprocessors visually and converting them into VHDL to put them on FPGA systems. I also work on Xilinx boards in VHDL.
-									</br>I have already made a 32-bit ALU, starting from transistors, capable of following 11 custom instructions like addition, multiplication, or binary comparisons.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/cpu_01.png">
-								</li>
-							</ul>
-							<p>The objective is to realize a 32-bit microprocessor, respecting the RISC-V instruction set. As a first step, the three stages of a SAP, the simplest processors to build, will be implemented.
-							</br>If you want to learn more about this project, please visit <a href="https://github.com/ThibaultTostain/T-CPU">github</a> where you will find all the source files.</p>
-						</div>
-						<div class="telephone">
-							<p>The aim of this project is above all to understand the functioning and the steps of creation of a (micro) processor. So I decided to build one starting from transistors and going up to the etched chip.</p>
-							<img class="ul_img projet_img" src="../img/cpu_01.png">
-							<p></br>To do this, I use logisim-évolution, a logic simulation software capable of running small microprocessors visually and converting them into VHDL to put them on FPGA systems. I also work on Xilinx boards in VHDL.
-							</br>I have already made a 32-bit ALU, starting from transistors, capable of following 11 custom instructions like addition, multiplication, or binary comparisons.
-				            </br>The objective is to realize a 32-bit microprocessor, respecting the RISC-V instruction set. As a first step, the three stages of a SAP, the simplest processors to build, will be implemented.
-							</br>If you want to learn more about this project, please visit <a href="https://github.com/ThibaultTostain/T-CPU">github</a> where you will find all the source files.</p>
-						</div>
-						</br></br>
-						<a class="elec_b_down_big bouton_lien" href="#projet_elec">Shrink</a>
-					</div>
-				</li>
-<!-- Manette -->
-				<li id="elec_c" class="ul_li projet_part elec_c">
-					<div class="petit">
-						<a class="elec_c_up_small" href="#projet_elec">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Controller</h1>
-						<img class="ul_img projet_img" src="../img/presentation_electronique.png">
-						<p class="ul_p projet_txt">The video game controller is one of the most common controllers, but its integration in DIY or Arduino projects can be laborious for simple prototyping stages. So I decided to make my own controller with the goal of making it easily accessible on Arduino.</p>
-						<a class="elec_c_up_med bouton_lien" href="#projet_elec">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Controller</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p></br>Being able to control and receive information during a robotics project is essential, but the implementation is often time-consuming and poorly done. I therefore decided to create a controller capable of responding to this problem simply and efficiently.
-								    </br>In order to make it easier for everyone to implement, I have forced myself to use only feed-through components. In order to facilitate the implementation in any project, each element has its own signal that can be processed independently from the others.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/presentation_electronique.png">
-								</li>
-							</ul>
-							<p>The board is currently 100*53 mm (rounded edges) with nearly thirty components. However, it is likely to evolve further as it needs to be fitted with a port extension system to reduce its impact on the number of pins on the Arduino, as well as a screen to display more information.
-				            </br>Like all my projects, you can find it in free access on <a href="https://github.com/ThibaultTostain/controllers/tree/main/manette_xbox_fils_brute">github</a> with more explanations on how the project will work.</p>
-						</div>
-						<div class="telephone">
-							<p>Being able to control and receive information during a robotics project is essential, but the implementation is often time-consuming and poorly done. I therefore decided to create a controller capable of responding to this problem simply and efficiently.</p>
-							<img class="ul_img projet_img" src="../img/presentation_electronique.png">
-							<p>In order to make it easier for everyone to implement, I have forced myself to use only feed-through components. In order to facilitate the implementation in any project, each element has its own signal that can be processed independently from the others.
-							</br>The board is currently 100*53 mm (rounded edges) with nearly thirty components. However, it is likely to evolve further as it needs to be fitted with a port extension system to reduce its impact on the number of pins on the Arduino, as well as a screen to display more information.
-							</br>Like all my projects, you can find it in free access on <a href="https://github.com/ThibaultTostain/controllers/tree/main/manette_xbox_fils_brute">github</a> with more explanations on how the project will work.</p>
-						</div>
-						</br></br>
-						<a class="elec_c_down_big bouton_lien" href="#projet_elec">Shrink</a>
-					</div>
-				</li>
+	<ul id="electronique" class="ul_box article_box article_electronique">
+		<li class="ul_li article_part">
+			<h1 class="ul_h1 article_titre">Electronics</h1>
+			<ul class="ul_hastag article_hastag">
+				<li class="hastag_soudure">#Soudure</li>
+				<li class="hastag_proteus">#Proteus</li>
+				<li class="hastag_kicad">#KiCad</li>
+				<li class="hastag_creo">#Logisim</li>
+				<li class="hastag_soudure">#VHDL</li>
 			</ul>
+			<img class="ul_img_portable article_img_portable" src="../img/presentation_electronique.png">
+			<p class="ul_p article_txt">My passion having led me to study electrical engineering, I have carried out
+				many projects, from the simple adapter to the console controller, including the famous line-following
+				robot.</p>
+			<!--<a class="bouton_lien" href="#projet_elec">Visitez les projets</a>-->
+		</li>
+		<li class="ul_li article_part">
+			<img class="ul_img article_img" src="../img/presentation_electronique.png">
+		</li>
+		<p id="projet_elec" class="projet"></p>
+		<ul class="ul_box projet_box">
+			<!-- Moniteur pour vélo -->
+			<li id="elec_a" class="ul_li projet_part elec_a">
+				<div class="petit">
+					<a class="elec_a_up_small" href="#projet_elec">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Bicycle monitor</h1>
+					<img class="ul_img projet_img" src="../img/tipe_velo_01.PNG">
+					<p class="ul_p projet_txt">During a project in connection with the school we had the possibility to
+						choose our project. As we were cycling, my teammate and I chose to make a bicycle monitor that
+						could calculate speed, distance travelled and manage session times. To this we added a jacket
+						with a flashing light to ensure better safety.</p>
+					<a class="elec_a_up_med bouton_lien" href="#projet_elec"> Enlarge </a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Bicycle monitor</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>The objective of this project was to produce a system capable of effectively
+									describing the activities of a cyclist. Although we initially opted for a prototype
+									version on a board, we decided during the course of the project to produce an alpha
+									capable of being used on a session.
+									</br>The problems of compactness and miniaturisation came up very quickly and I
+									opted for SMD components, this being the first project where I used them. The choice
+									of the placement of the main components on the board was also constrained by the
+									desired sports ergonomics here.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/tipe_velo_01.PNG">
+							</li>
+						</ul>
+						<p>The board was made on Proteus, the electronic CAD software used by my school, and is 120*50
+							mm with 33 components and 73 tracks.
+							</br>Once all the functionalities had been tested on a test board, I made the PCB in
+							physics. However, the board had some manufacturing imperfections and was unusable, and due
+							to lack of time I could not make a second one. I was however able to check the mechanical
+							compatibility, and invite you to discover the mechanical part of this project that I also
+							realized on <a href="https://github.com/ThibaultTostain/TIPE_velo">github</a> where you will
+							find all the source files.</p>
+					</div>
+					<div class="telephone">
+						<p>The objective of this project was to produce a system capable of effectively describing the
+							activities of a cyclist. Although we initially opted for a prototype version on a board, we
+							decided during the course of the project to produce an alpha capable of being used on a
+							session.</p>
+						<img class="ul_img projet_img" src="../img/tipe_velo_01.PNG">
+						<p>The problems of compactness and miniaturisation came up very quickly and I opted for SMD
+							components, this being the first project where I used them. The choice of the placement of
+							the main components on the board was also constrained by the desired sports ergonomics here.
+						</p>
+						<p>The board was made on Proteus, the electronic CAD software used by my school, and is 120*50
+							mm with 33 components and 73 tracks.</br>Once all the functionalities were tested on a test
+							board, I made the PCB in physics. However, the board had some manufacturing imperfections
+							and remained unusable, and due to lack of time it was impossible for me to make a second
+							one. I was however able to check the mechanical compatibility, and invite you to discover
+							the mechanical part of this project that I also realized as well as its <a
+								href="https://github.com/ThibaultTostain/TIPE_velo">github</a> where you will find all
+							the source files.</p>
+					</div>
+					</br></br>
+					<a class="elec_a_down_big bouton_lien" href="#projet_elec">Shrink</a>
+				</div>
+			</li>
+			<!-- Du transistor au cpu -->
+			<li id="elec_b" class="ul_li projet_part elec_b">
+				<div class="petit">
+					<a class="elec_b_up_small" href="#projet_elec">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">From transistor to CPU</h1>
+					<img class="ul_img projet_img" src="../img/cpu_01.png">
+					<p class="ul_p projet_txt">Always trying to understand how everything around me works, I came across
+						processors and the question "how does it work? And what better way to answer it than to build
+						one! I then opened Logisim Evolution, a logic simulation software, and still today I am working
+						on my own RISC-V microprocessor.</p>
+					<a class="elec_b_up_med bouton_lien" href="#projet_elec">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">From transistor to CPU</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>The aim of this project is above all to understand the functioning and the steps of
+									creation of a (micro) processor. So I decided to build one starting from transistors
+									and going up to the etched chip.
+									</br>To do this, I use logisim-évolution, a logic simulation software capable of
+									running small microprocessors visually and converting them into VHDL to put them on
+									FPGA systems. I also work on Xilinx boards in VHDL.
+									</br>I have already made a 32-bit ALU, starting from transistors, capable of
+									following 11 custom instructions like addition, multiplication, or binary
+									comparisons.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/cpu_01.png">
+							</li>
+						</ul>
+						<p>The objective is to realize a 32-bit microprocessor, respecting the RISC-V instruction set.
+							As a first step, the three stages of a SAP, the simplest processors to build, will be
+							implemented.
+							</br>If you want to learn more about this project, please visit <a
+								href="https://github.com/ThibaultTostain/T-CPU">github</a> where you will find all the
+							source files.</p>
+					</div>
+					<div class="telephone">
+						<p>The aim of this project is above all to understand the functioning and the steps of creation
+							of a (micro) processor. So I decided to build one starting from transistors and going up to
+							the etched chip.</p>
+						<img class="ul_img projet_img" src="../img/cpu_01.png">
+						<p></br>To do this, I use logisim-évolution, a logic simulation software capable of running
+							small microprocessors visually and converting them into VHDL to put them on FPGA systems. I
+							also work on Xilinx boards in VHDL.
+							</br>I have already made a 32-bit ALU, starting from transistors, capable of following 11
+							custom instructions like addition, multiplication, or binary comparisons.
+							</br>The objective is to realize a 32-bit microprocessor, respecting the RISC-V instruction
+							set. As a first step, the three stages of a SAP, the simplest processors to build, will be
+							implemented.
+							</br>If you want to learn more about this project, please visit <a
+								href="https://github.com/ThibaultTostain/T-CPU">github</a> where you will find all the
+							source files.</p>
+					</div>
+					</br></br>
+					<a class="elec_b_down_big bouton_lien" href="#projet_elec">Shrink</a>
+				</div>
+			</li>
+			<!-- Manette -->
+			<li id="elec_c" class="ul_li projet_part elec_c">
+				<div class="petit">
+					<a class="elec_c_up_small" href="#projet_elec">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Controller</h1>
+					<img class="ul_img projet_img" src="../img/presentation_electronique.png">
+					<p class="ul_p projet_txt">The video game controller is one of the most common controllers, but its
+						integration in DIY or Arduino projects can be laborious for simple prototyping stages. So I
+						decided to make my own controller with the goal of making it easily accessible on Arduino.</p>
+					<a class="elec_c_up_med bouton_lien" href="#projet_elec">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Controller</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p></br>Being able to control and receive information during a robotics project is
+									essential, but the implementation is often time-consuming and poorly done. I
+									therefore decided to create a controller capable of responding to this problem
+									simply and efficiently.
+									</br>In order to make it easier for everyone to implement, I have forced myself to
+									use only feed-through components. In order to facilitate the implementation in any
+									project, each element has its own signal that can be processed independently from
+									the others.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/presentation_electronique.png">
+							</li>
+						</ul>
+						<p>The board is currently 100*53 mm (rounded edges) with nearly thirty components. However, it
+							is likely to evolve further as it needs to be fitted with a port extension system to reduce
+							its impact on the number of pins on the Arduino, as well as a screen to display more
+							information.
+							</br>Like all my projects, you can find it in free access on <a
+								href="https://github.com/ThibaultTostain/controllers/tree/main/manette_xbox_fils_brute">github</a>
+							with more explanations on how the project will work.</p>
+					</div>
+					<div class="telephone">
+						<p>Being able to control and receive information during a robotics project is essential, but the
+							implementation is often time-consuming and poorly done. I therefore decided to create a
+							controller capable of responding to this problem simply and efficiently.</p>
+						<img class="ul_img projet_img" src="../img/presentation_electronique.png">
+						<p>In order to make it easier for everyone to implement, I have forced myself to use only
+							feed-through components. In order to facilitate the implementation in any project, each
+							element has its own signal that can be processed independently from the others.
+							</br>The board is currently 100*53 mm (rounded edges) with nearly thirty components.
+							However, it is likely to evolve further as it needs to be fitted with a port extension
+							system to reduce its impact on the number of pins on the Arduino, as well as a screen to
+							display more information.
+							</br>Like all my projects, you can find it in free access on <a
+								href="https://github.com/ThibaultTostain/controllers/tree/main/manette_xbox_fils_brute">github</a>
+							with more explanations on how the project will work.</p>
+					</div>
+					</br></br>
+					<a class="elec_c_down_big bouton_lien" href="#projet_elec">Shrink</a>
+				</div>
+			</li>
 		</ul>
+	</ul>
 
 
-<!--
+	<!--
 *
 *
 *
@@ -209,137 +285,208 @@ Programmation
 -->
 
 
-		<ul id="programmation" class="ul_box article_box article_programmation">
-			<li class="ul_li article_part">
-				<img class="ul_img article_img" src="../img/presentation_programmation.png">
-			</li>
-			<li class="ul_li article_part">
-				<h1 class="ul_h1 article_titre">Programming</h1>
-				<ul class="ul_hastag article_hastag">
-					<li class="hastag_arduino">#Arduino</li>
-					<li class="hastag_html">#html</li>
-					<li class="hastag_css">#css</li>
-					<li class="hastag_java">#Java</li>
-					<li class="hastag_python">#Python</li>
-				</ul>
-				<img class="ul_img article_img_portable" src="../img/presentation_programmation.png">
-				<p class="ul_p article_txt">Programming is a necessary step nowadays and allows to realize many projects. I have done some myself, whether it is a software with a GUI or Arduino programs.</p>
-				<!--<a class="bouton_lien" href="#programmation">En lire plus</a>-->
-			</li>
-			<p id="projet_prog" class="projet"></p>
-			<ul class="ul_box projet_box">
-				<li class="ul_li projet_part prog_a">
-					<div class="petit">
-						<a class="prog_a_up_small" href="#projet_prog">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Web sites</h1>
-						<img class="ul_img projet_img" src="../img/presentation_programmation.png">
-						<p class="ul_p projet_txt">
-							For a long time I made websites without putting them online, but during my first year of preparatory class I took the plunge and made the website of<a href="http://aep-insa-strasbourg.com"> AEP</a>, an association in my school. This year I decided to launch two new websites, the<a href="https://robotique-insas.github.io">CRIS</a>, a robotics club of which I am president, and my <a href="https://thibaulttostain.github.io/">portfolio</a> that you are seeing right now.
-
-						</p>
-						<a class="prog_a_up_med bouton_lien" href="#projet_prog">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Web sites</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>Websites are nowadays great showcases, and knowing how to make them is a plus that allows to put forward subjects. And even if no-code systems are more and more common, I decided to write myself the source code of the different websites I made to be able to put what I wanted, but also to be able to change hosting if needed.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/presentation_programmation.png">
-								</li>
-							</ul>
-							<p>For the AEP site, I recovered an alpha of the site, created the majority of the sections present today, and corrected many bugs, the whole hosted at ovh. The creation of the CRIS and my portfolio was however different. Indeed I started from scratch to build everything. I also decided to host them on github.io to facilitate their update.
-				            </br>I finally discovered through these projects HTML, CSS and JavaScript. These are essential web programming languages that allow me to present my portfolio as I wish but also to create pages dedicated to my future projects that I am currently working on.</p>
-						</div>
-						<div class="telephone">
-							<p>Websites are nowadays great showcases, and knowing how to make them is a plus that allows to put forward subjects. And even if no-code systems are more and more common, I decided to write myself the source code of the different websites I made to be able to put what I wanted, but also to be able to change hosting if needed.</p>
-							<img class="ul_img projet_img" src="../img/presentation_programmation.png">
-							<p>For the AEP site, I recovered an alpha of the site, created the majority of the sections present today, and corrected many bugs, the whole hosted at ovh. The creation of the CRIS and my portfolio was however different. Indeed I started from scratch to build everything. I also decided to host them on github.io to facilitate their update.
-							</br>I finally discovered through these projects HTML, CSS and JavaScript. These are essential web programming languages that allow me to present my portfolio as I wish but also to create pages dedicated to my future projects that I am currently working on.</p>
-						</div>
-						</br></br>
-						<a class="prog_a_down_big bouton_lien" href="#projet_prog">Shrink</a>
-					</div>
-				</li>
-				<li class="ul_li projet_part prog_b">
-					<div class="petit">
-						<a class="prog_b_up_small" href="#projet_prog">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Databases</h1>
-						<img class="ul_img projet_img" src="../img/postgreSQL.jpg">
-						<p class="ul_p projet_txt">For a project involving a computer science module in the first year of the electrical engineering cycle, we had to create a website capable of handling a system of accounts with different privileges depending on status, student or teacher, and registration for course modules. All on a web interface with history management.</p>
-						<a class="prog_b_up_med bouton_lien" href="#projet_prog">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Databases</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>Databases are essential to today's IT infrastructures, so it's important not only to know how they work, but also how to use them. That's why we studied it for a semester at my school.
-									</br>To apply our knowledge, we had to carry out a project using a relational database, more specifically MySQL, all in JAVA. During this project, we were also able to discover PostgreSQL, a visual database management system.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/postgreSQL.jpg">
-								</li>
-							</ul>
-							<p>I was in charge of the database part of this project. The web interface was created using Vaadin, a Java web framework, by one of my project teammates. Having already created web pages, I wanted to take advantage of this project to deepen my knowledge in a field I didn't know: databases. 
-							</br>In this project, I created the appropriate queries for the database, implemented them in Java and added security modules to prevent, among other things, query injection. I also designed the database structure to make it scalable and future-proof. The project is also freely available on<a href="https://github.com/PalisseVolia/ProjetBDDS3">github</a>.</p>
-						</div>
-						<div class="telephone">
-							<p>Databases are essential to today's IT infrastructures, so it's important not only to know how they work, but also how to use them. That's why we studied it for a semester at my school.
-                            </br>To apply our knowledge, we had to carry out a project using a relational database, more specifically MySQL, all in JAVA. During this project, we were also able to discover PostgreSQL, a visual database management system.</p>
-							<img class="ul_img projet_img" src="img/postgreSQL.jpg">
-							<p>I was in charge of the database part of this project. The web interface was created using Vaadin, a Java web framework, by one of my project teammates. Having already created web pages, I wanted to take advantage of this project to deepen my knowledge in a field I didn't know: databases.
-							</br>In this project, I created the appropriate queries for the database, implemented them in Java and added security modules to prevent, among other things, query injection. I also designed the database structure to make it scalable and future-proof. The project is also freely available on<a href="https://github.com/PalisseVolia/ProjetBDDS3">github</a>.</p>
-						</div>
-						</br></br>
-						<a class="prog_b_down_big bouton_lien" href="#projet_prog">Shrink</a>
-					</div>
-				</li>
-				<li class="ul_li projet_part prog_c">
-					<div class="petit">
-						<a class="prog_c_up_small" href="#projet_prog">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Lattice simulation</h1>
-						<img class="ul_img projet_img" src="../img/treillis.webp">
-						<p class="ul_p projet_txt">During my first year of preparatory classes, we were asked to create software that would allow us to plot and customise properties, as well as calculating forces on a lattice. All in Java.</p>
-						<a class="prog_c_up_med bouton_lien" href="#projet_prog">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Lattice simulation</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>Understanding the software we use and its limitations is a useful attribute for an engineer, which is why my school asked us to create software with a graphical lattice simulation interface, all in the language we had learnt in class, Java. We were 3 first-year students. So we agreed to divide the work into 3 main parts: The mathematical simulation, the graphical interface and saving the files.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/treillis.webp">
-								</li>
-							</ul>
-							<p>I was responsible for implementing the mathematical formulas and handling any exceptions that might arise. I had to find the most appropriate formulas and create a matrix inverter of size n, as I couldn't use pre-made libraries. I also had to create a system for saving files in .txt format and the structure of objects to make them customisable (materials used, mass, type of connection, etc.), as one of my team-mates finally left school during the semester.
-							</br>My remaining team-mate helped me optimise the calculations and produced a complete command interface and the beginnings of a graphical interface where you could move the points and modify the parameters of each beam independently. The project is available on <a href="https://github.com/ThibaultTostain/project_informatique/tree/master" target="_blank">github</a>.</p>
-						</div>
-						<div class="telephone">
-							<p>Understanding the software we use and its limitations is a useful attribute for an engineer, which is why my school asked us to create software with a graphical lattice simulation interface, all in the language we had learnt in class, Java. We were 3 first-year students. So we agreed to divide the work into 3 main parts: The mathematical simulation, the graphical interface and saving the files.</p>
-							<img class="ul_img projet_img" src="../img/treillis.webp">
-							<p>I was responsible for implementing the mathematical formulas and handling any exceptions that might arise. I had to find the most appropriate formulas and create a matrix inverter of size n, as I couldn't use pre-made libraries. I also had to create a system for saving files in .txt format and the structure of objects to make them customisable (materials used, mass, type of connection, etc.), as one of my team-mates finally left school during the semester.
-							</br>My remaining team-mate helped me optimise the calculations and produced a complete command interface and the beginnings of a graphical interface where you could move the points and modify the parameters of each beam independently. The project is available on <a href="https://github.com/ThibaultTostain/project_informatique/tree/master" target="_blank">github</a>.</p>
-						</div>
-						</br></br>
-						<a class="prog_c_down_big bouton_lien" href="#projet_prog">Shrink</a>
-					</div>
-				</li>
+	<ul id="programmation" class="ul_box article_box article_programmation">
+		<li class="ul_li article_part">
+			<img class="ul_img article_img" src="../img/presentation_programmation.png">
+		</li>
+		<li class="ul_li article_part">
+			<h1 class="ul_h1 article_titre">Programming</h1>
+			<ul class="ul_hastag article_hastag">
+				<li class="hastag_arduino">#Arduino</li>
+				<li class="hastag_html">#html</li>
+				<li class="hastag_css">#css</li>
+				<li class="hastag_java">#Java</li>
+				<li class="hastag_python">#Python</li>
 			</ul>
+			<img class="ul_img article_img_portable" src="../img/presentation_programmation.png">
+			<p class="ul_p article_txt">Programming is a necessary step nowadays and allows to realize many projects. I
+				have done some myself, whether it is a software with a GUI or Arduino programs.</p>
+			<!--<a class="bouton_lien" href="#programmation">En lire plus</a>-->
+		</li>
+		<p id="projet_prog" class="projet"></p>
+		<ul class="ul_box projet_box">
+			<li class="ul_li projet_part prog_a">
+				<div class="petit">
+					<a class="prog_a_up_small" href="#projet_prog">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Web sites</h1>
+					<img class="ul_img projet_img" src="../img/presentation_programmation.png">
+					<p class="ul_p projet_txt">
+						For a long time I made websites without putting them online, but during my first year of
+						preparatory class I took the plunge and made the website of<a
+							href="http://aep-insa-strasbourg.com"> AEP</a>, an association in my school. This year I
+						decided to launch two new websites, the<a href="https://robotique-insas.github.io">CRIS</a>, a
+						robotics club of which I am president, and my <a
+							href="https://thibaulttostain.github.io/">portfolio</a> that you are seeing right now.
+
+					</p>
+					<a class="prog_a_up_med bouton_lien" href="#projet_prog">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Web sites</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>Websites are nowadays great showcases, and knowing how to make them is a plus that
+									allows to put forward subjects. And even if no-code systems are more and more
+									common, I decided to write myself the source code of the different websites I made
+									to be able to put what I wanted, but also to be able to change hosting if needed.
+								</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/presentation_programmation.png">
+							</li>
+						</ul>
+						<p>For the AEP site, I recovered an alpha of the site, created the majority of the sections
+							present today, and corrected many bugs, the whole hosted at ovh. The creation of the CRIS
+							and my portfolio was however different. Indeed I started from scratch to build everything. I
+							also decided to host them on github.io to facilitate their update.
+							</br>I finally discovered through these projects HTML, CSS and JavaScript. These are
+							essential web programming languages that allow me to present my portfolio as I wish but also
+							to create pages dedicated to my future projects that I am currently working on.</p>
+					</div>
+					<div class="telephone">
+						<p>Websites are nowadays great showcases, and knowing how to make them is a plus that allows to
+							put forward subjects. And even if no-code systems are more and more common, I decided to
+							write myself the source code of the different websites I made to be able to put what I
+							wanted, but also to be able to change hosting if needed.</p>
+						<img class="ul_img projet_img" src="../img/presentation_programmation.png">
+						<p>For the AEP site, I recovered an alpha of the site, created the majority of the sections
+							present today, and corrected many bugs, the whole hosted at ovh. The creation of the CRIS
+							and my portfolio was however different. Indeed I started from scratch to build everything. I
+							also decided to host them on github.io to facilitate their update.
+							</br>I finally discovered through these projects HTML, CSS and JavaScript. These are
+							essential web programming languages that allow me to present my portfolio as I wish but also
+							to create pages dedicated to my future projects that I am currently working on.</p>
+					</div>
+					</br></br>
+					<a class="prog_a_down_big bouton_lien" href="#projet_prog">Shrink</a>
+				</div>
+			</li>
+			<li class="ul_li projet_part prog_b">
+				<div class="petit">
+					<a class="prog_b_up_small" href="#projet_prog">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Databases</h1>
+					<img class="ul_img projet_img" src="../img/postgreSQL.jpg">
+					<p class="ul_p projet_txt">For a project involving a computer science module in the first year of
+						the electrical engineering cycle, we had to create a website capable of handling a system of
+						accounts with different privileges depending on status, student or teacher, and registration for
+						course modules. All on a web interface with history management.</p>
+					<a class="prog_b_up_med bouton_lien" href="#projet_prog">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Databases</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>Databases are essential to today's IT infrastructures, so it's important not only to
+									know how they work, but also how to use them. That's why we studied it for a
+									semester at my school.
+									</br>To apply our knowledge, we had to carry out a project using a relational
+									database, more specifically MySQL, all in JAVA. During this project, we were also
+									able to discover PostgreSQL, a visual database management system.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/postgreSQL.jpg">
+							</li>
+						</ul>
+						<p>I was in charge of the database part of this project. The web interface was created using
+							Vaadin, a Java web framework, by one of my project teammates. Having already created web
+							pages, I wanted to take advantage of this project to deepen my knowledge in a field I didn't
+							know: databases.
+							</br>In this project, I created the appropriate queries for the database, implemented them
+							in Java and added security modules to prevent, among other things, query injection. I also
+							designed the database structure to make it scalable and future-proof. The project is also
+							freely available on<a href="https://github.com/PalisseVolia/ProjetBDDS3">github</a>.</p>
+					</div>
+					<div class="telephone">
+						<p>Databases are essential to today's IT infrastructures, so it's important not only to know how
+							they work, but also how to use them. That's why we studied it for a semester at my school.
+							</br>To apply our knowledge, we had to carry out a project using a relational database, more
+							specifically MySQL, all in JAVA. During this project, we were also able to discover
+							PostgreSQL, a visual database management system.</p>
+						<img class="ul_img projet_img" src="img/postgreSQL.jpg">
+						<p>I was in charge of the database part of this project. The web interface was created using
+							Vaadin, a Java web framework, by one of my project teammates. Having already created web
+							pages, I wanted to take advantage of this project to deepen my knowledge in a field I didn't
+							know: databases.
+							</br>In this project, I created the appropriate queries for the database, implemented them
+							in Java and added security modules to prevent, among other things, query injection. I also
+							designed the database structure to make it scalable and future-proof. The project is also
+							freely available on<a href="https://github.com/PalisseVolia/ProjetBDDS3">github</a>.</p>
+					</div>
+					</br></br>
+					<a class="prog_b_down_big bouton_lien" href="#projet_prog">Shrink</a>
+				</div>
+			</li>
+			<li class="ul_li projet_part prog_c">
+				<div class="petit">
+					<a class="prog_c_up_small" href="#projet_prog">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Lattice simulation</h1>
+					<img class="ul_img projet_img" src="../img/treillis.webp">
+					<p class="ul_p projet_txt">During my first year of preparatory classes, we were asked to create
+						software that would allow us to plot and customise properties, as well as calculating forces on
+						a lattice. All in Java.</p>
+					<a class="prog_c_up_med bouton_lien" href="#projet_prog">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Lattice simulation</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>Understanding the software we use and its limitations is a useful attribute for an
+									engineer, which is why my school asked us to create software with a graphical
+									lattice simulation interface, all in the language we had learnt in class, Java. We
+									were 3 first-year students. So we agreed to divide the work into 3 main parts: The
+									mathematical simulation, the graphical interface and saving the files.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/treillis.webp">
+							</li>
+						</ul>
+						<p>I was responsible for implementing the mathematical formulas and handling any exceptions that
+							might arise. I had to find the most appropriate formulas and create a matrix inverter of
+							size n, as I couldn't use pre-made libraries. I also had to create a system for saving files
+							in .txt format and the structure of objects to make them customisable (materials used, mass,
+							type of connection, etc.), as one of my team-mates finally left school during the semester.
+							</br>My remaining team-mate helped me optimise the calculations and produced a complete
+							command interface and the beginnings of a graphical interface where you could move the
+							points and modify the parameters of each beam independently. The project is available on <a
+								href="https://github.com/ThibaultTostain/project_informatique/tree/master"
+								target="_blank">github</a>.</p>
+					</div>
+					<div class="telephone">
+						<p>Understanding the software we use and its limitations is a useful attribute for an engineer,
+							which is why my school asked us to create software with a graphical lattice simulation
+							interface, all in the language we had learnt in class, Java. We were 3 first-year students.
+							So we agreed to divide the work into 3 main parts: The mathematical simulation, the
+							graphical interface and saving the files.</p>
+						<img class="ul_img projet_img" src="../img/treillis.webp">
+						<p>I was responsible for implementing the mathematical formulas and handling any exceptions that
+							might arise. I had to find the most appropriate formulas and create a matrix inverter of
+							size n, as I couldn't use pre-made libraries. I also had to create a system for saving files
+							in .txt format and the structure of objects to make them customisable (materials used, mass,
+							type of connection, etc.), as one of my team-mates finally left school during the semester.
+							</br>My remaining team-mate helped me optimise the calculations and produced a complete
+							command interface and the beginnings of a graphical interface where you could move the
+							points and modify the parameters of each beam independently. The project is available on <a
+								href="https://github.com/ThibaultTostain/project_informatique/tree/master"
+								target="_blank">github</a>.</p>
+					</div>
+					</br></br>
+					<a class="prog_c_down_big bouton_lien" href="#projet_prog">Shrink</a>
+				</div>
+			</li>
 		</ul>
+	</ul>
 
 
-<!--
+	<!--
 *
 *
 *
@@ -353,135 +500,223 @@ Mécanique
 *
 -->
 
-		<ul id="mecanique" class="ul_box article_box article_mecanique">
-			<li class="ul_li article_part">
-				<h1 class="ul_h1 article_titre">Mechanical engineering</h1>
-				<ul class="ul_hastag article_hastag">
-					<li class="hastag_freecad">#FreeCad</li>
-					<li class="hastag_creo">#Creo</li>
-					<li class="hastag_impression3d">#Impression3D</li>
-				</ul>
-				<img class="ul_img article_img_portable" src="../img/presentation_freecad_02.webp">
-				<p class="ul_p article_txt">Mechanics is an essential part of engineering. Knowing the basics means you can quickly put your project into practice. So I had the opportunity to make a few parts, such as a simple box, or a more complex console controller.</p>
-				<!--<a class="bouton_lien" href="#mecanique">Manipuler des pièces</a>-->
-			</li>
-			<li class="ul_li article_part">
-				<img class="ul_img article_img" src="../img/presentation_freecad_02.webp">
-			</li>
-			<p id="projet_meca" class="projet"></p>
-			<ul class="ul_box projet_box">
-				<li class="ul_li projet_part meca_a">
-					<div class="petit">
-						<a class="meca_a_up_small" href="#projet_meca">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Bike monitor</h1>
-						<img class="ul_img projet_img" src="../img/moniteur_meca_ferme.jpg">
-						<p class="ul_p projet_txt">As soon as we started our electrical engineering course, we had to work on a project that we had chosen in pairs. As a keen cyclist, I suggested we create a monitor capable of tracking the speed and distance travelled on a bicycle. This was the project we chose from among other proposals.</p>
-						<a class="meca_a_up_med bouton_lien" href="#projet_meca">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Bike monitor</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>Cyclists are constantly on the lookout for ways to improve their performance, and there are many technological tools available to help them do just that. One of them, the GPS monitor, is particularly useful for tracking improvements over time by recording speed and distance covered at each session. So our idea was to carry out the same actions, but without the GPS coordinates. What's more, we wanted to add a safety dimension to our system.
-                                    </br>So in this project, we have a central box on the one hand, and the sensors and lights on the other. The central box was made using Creo, and has a ring of magnets underneath to hold it in place and ensure it is correctly positioned by playing with the polarities of the magnets.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/moniteur_meca_ferme.jpg">
-								</li>
-							</ul>
-							<p>On the top of the case, there's an opening that allows the screen to be seen while it's still in place, keeping the system airtight during a short shower. Finally, inside, there's the pcb that I also made, which I explain in more detail in the 'electricity' section of the portfolio.
-							</br>The sensors also had to be held securely on the bike frame. For speed, we use a hall-effect sensor and magnets on the wheel, so I made a small case to hold the sensor without damaging the bike, touching the wheel or moving in the event of an impact. For the safety aspect, we opted to take a cycling jacket and put LEDs inside to indicate whether the cyclist was braking or turning to one side or the other. All this with a connector that also uses magnets and an end-piece that I also made to allow you to get off the bike without ripping out the cables. You can find the archive of this project on <a href="https://github.com/ThibaultTostain/TIPE_velo">github</a>.
-							</p>
-						</div>
-						<div class="telephone">
-							<p>Cyclists are constantly on the lookout for ways to improve their performance, and there are many technological tools available to help them do just that. One of them, the GPS monitor, is particularly useful for tracking improvements over time by recording speed and distance covered at each session. So our idea was to carry out the same actions, but without the GPS coordinates. What's more, we wanted to add a safety dimension to our system. So in this project, we have a central box on the one hand, and the sensors and lights on the other. The central box was made using Creo, and has a ring of magnets underneath to hold it in place and ensure it is correctly positioned by playing with the polarities of the magnets.</p>
-							<img class="ul_img projet_img" src="../img/moniteur_meca_ferme.jpg">
-							<p>On the top of the case, there's an opening that allows the screen to be seen while still covering it, keeping the system airtight during a short shower. Finally, inside, there's the pcb that I also made, which I explain in more detail in the 'electricity' section of the portfolio.
-							</br>The sensors also had to be held securely on the bike frame. For speed, we use a hall-effect sensor and magnets on the wheel, so I made a small case to hold the sensor without damaging the bike, touching the wheel or moving in the event of an impact. For the safety aspect, we opted to take a cycling jacket and put LEDs inside to indicate whether the cyclist was braking or turning to one side or the other. All this with a connector that also uses magnets and an end-piece that I also made to allow you to get off the bike without ripping out the cables. You can find the archive of this project on <a href="https://github.com/ThibaultTostain/TIPE_velo">github</a>.</p>
-						</div>
-						</br></br>
-						<a class="meca_a_down_big bouton_lien" href="#projet_meca">Shrink</a>
-					</div>
-				</li>
-				<li class="ul_li projet_part meca_b">
-					<div class="petit">
-						<a class="meca_b_up_small" href="#projet_meca">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Flashlight</h1>
-						<img class="ul_img projet_img" src="../img/lampe_torche.jpg">
-						<p class="ul_p projet_txt">As part of the training for new members of a robotics club that I have the honour of chairing, I devised a series of 3 sessions to create a flashlight with 'intelligent' functions. For the mechanical part, I co-created a housing for this torch with a friend who is a member of the club.</p>
-						<a class="meca_b_up_med bouton_lien" href="#projet_meca">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Flashlight</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>To do a complete training course on robotics, you have to take into account the 3 main areas: the electrical part, which I did on Proteus, the programming part, which I did on Arduino, and finally the mechanical part, explained here, which I did on Creo.
-                                    </br>The aim of this project was to discover the CREO software that we use in our school. The part was designed to perform all the basic functions of the software while remaining feasible in less than 2 hours for beginners.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/lampe_torche.jpg">
-								</li>
-							</ul>
-							<p>I therefore co-created a file of around twenty pages with a friend to explain all the steps required to make this part and to ensure, as manager of the overall project, that this tutorial remained consistent with the others. The files are currently only available to club members, but will be posted on the club's github page once the last typos have been corrected.</p>
-						</div>
-						<div class="telephone">
-							<p>To do a complete training course on robotics, you have to take into account the 3 main areas: the electrical part, which I did on Proteus, the programming part, which I did on Arduino, and finally the mechanical part, explained here, which I did on Creo.
-                            </br>The aim of this project was to discover the CREO software that we use in our school. The part was designed to perform all the basic functions of the software while remaining feasible in less than 2 hours for beginners.</p>
-							<img class="ul_img projet_img" src="../img/lampe_torche.jpg">
-							<p>I therefore co-created a file of around twenty pages with a friend to explain all the steps required to make this part and to ensure, as manager of the overall project, that this tutorial remained consistent with the others. The files are currently only available to club members, but will be posted on the club's github page once the last typos have been corrected.</p>
-						</div>
-						</br></br>
-						<a class="meca_b_down_big bouton_lien" href="#projet_meca">Shrink</a>
-					</div>
-				</li>
-				<li class="ul_li projet_part meca_c">
-					<div class="petit">
-						<a class="meca_c_up_small" href="#projet_meca">+</a>
-					</div>
-					<div class="moyen">
-						<h1 class="ul_h1 projet_titre">Controller</h1>
-						<img class="ul_img projet_img" src="../img/presentation_freecad_02.webp">
-						<p class="ul_p projet_txt">The video game controller is one of the most widespread controllers, but integrating it into DIY or Arduino projects can prove laborious for simple prototyping stages. So I decided to make my own controller with the aim of making it easily accessible on Arduino.</p>
-						<a class="meca_c_up_med bouton_lien" href="#projet_meca">Enlarge</a>
-					</div>
-					<div class="grand">
-						<h1 class="ul_h1 projet_titre">Controller</h1>
-						<div class="ordinateur">
-							<ul class="ul_box explication_box">
-								<li class="ul_li explication_part txt">
-									<p>Controllers are now a ubiquitous part of our lives, whether in factories or in games rooms. They are a very practical way of controlling a system effortlessly, and are often designed to match the way you use it. Whether it's the joystick for your television, a games console or a lift, they've all been created and designed with a particular need in mind. In this project, my aim was to make it easy to integrate joysticks and buttons into Arduino projects, so I decided to take the format of a controller that fits comfortably in the hand and is familiar to many people: the video game controller.</p>
-								</li>
-								<li class="ul_li explication_part img">
-									<img class="ul_img projet_img" src="../img/presentation_freecad_02.webp">
-								</li>
-							</ul>
-							<p>To create this joystick I used FreeCad 0.20 to make the file accessible and editable by everyone. What's more, it's a parametric modelling program that lets you make changes to the first actions you perform. Finally, to make it more user-friendly, I decided to use curved functions that could be parameterised and therefore adjusted according to need.
-							</br>Other designs are in the pipeline, some to increase the number of actuators, others to make them easier to build without the need for 3D printing, and still others to enable them to be used in more complex projects with more appropriate connectors.
-                            </br> In any case, you can follow the progress of this project on <a href="https://github.com/ThibaultTostain/controllers">github</a>.</p>
-						</div>
-						<div class="telephone">
-							<p>Controllers are now a ubiquitous part of our lives, whether in factories or in games rooms. They are a very practical way of controlling a system effortlessly, and are often designed to match the way you use it. Whether it's the joystick for your television, a games console or a lift, they've all been created and designed with a particular need in mind. In this project, my aim was to make it easy to integrate joysticks and buttons into Arduino projects, so I decided to take the format of a controller that fits comfortably in the hand and is familiar to many people: the video game controller.</p>
-							<img class="ul_img projet_img" src="../img/presentation_freecad_02.webp">
-							<p>To create this joystick I used FreeCad 0.20 to make the file accessible and editable by everyone. What's more, it's a parametric modelling program that lets you make changes to the first actions you perform. Finally, to make it more user-friendly, I decided to use curved functions that could be parameterised and therefore adjusted according to need.
-							</br>Other designs are in the pipeline, some to increase the number of actuators, others to make them easier to build without the need for 3D printing, and still others to enable them to be used in more complex projects with more appropriate connectors.
-							</br>In any case, you can follow the progress of this project on <a href="https://github.com/ThibaultTostain/controllers">github</a>.
-							</p>
-						</div>
-						</br></br>
-						<a class="meca_c_down_big bouton_lien" href="#projet_meca">Shrink</a>
-					</div>
-				</li>
+	<ul id="mecanique" class="ul_box article_box article_mecanique">
+		<li class="ul_li article_part">
+			<h1 class="ul_h1 article_titre">Mechanical engineering</h1>
+			<ul class="ul_hastag article_hastag">
+				<li class="hastag_freecad">#FreeCad</li>
+				<li class="hastag_creo">#Creo</li>
+				<li class="hastag_impression3d">#Impression3D</li>
 			</ul>
+			<img class="ul_img article_img_portable" src="../img/presentation_freecad_02.webp">
+			<p class="ul_p article_txt">Mechanics is an essential part of engineering. Knowing the basics means you can
+				quickly put your project into practice. So I had the opportunity to make a few parts, such as a simple
+				box, or a more complex console controller.</p>
+			<!--<a class="bouton_lien" href="#mecanique">Manipuler des pièces</a>-->
+		</li>
+		<li class="ul_li article_part">
+			<img class="ul_img article_img" src="../img/presentation_freecad_02.webp">
+		</li>
+		<p id="projet_meca" class="projet"></p>
+		<ul class="ul_box projet_box">
+			<li class="ul_li projet_part meca_a">
+				<div class="petit">
+					<a class="meca_a_up_small" href="#projet_meca">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Bike monitor</h1>
+					<img class="ul_img projet_img" src="../img/moniteur_meca_ferme.jpg">
+					<p class="ul_p projet_txt">As soon as we started our electrical engineering course, we had to work
+						on a project that we had chosen in pairs. As a keen cyclist, I suggested we create a monitor
+						capable of tracking the speed and distance travelled on a bicycle. This was the project we chose
+						from among other proposals.</p>
+					<a class="meca_a_up_med bouton_lien" href="#projet_meca">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Bike monitor</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>Cyclists are constantly on the lookout for ways to improve their performance, and
+									there are many technological tools available to help them do just that. One of them,
+									the GPS monitor, is particularly useful for tracking improvements over time by
+									recording speed and distance covered at each session. So our idea was to carry out
+									the same actions, but without the GPS coordinates. What's more, we wanted to add a
+									safety dimension to our system.
+									</br>So in this project, we have a central box on the one hand, and the sensors and
+									lights on the other. The central box was made using Creo, and has a ring of magnets
+									underneath to hold it in place and ensure it is correctly positioned by playing with
+									the polarities of the magnets.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/moniteur_meca_ferme.jpg">
+							</li>
+						</ul>
+						<p>On the top of the case, there's an opening that allows the screen to be seen while it's still
+							in place, keeping the system airtight during a short shower. Finally, inside, there's the
+							pcb that I also made, which I explain in more detail in the 'electricity' section of the
+							portfolio.
+							</br>The sensors also had to be held securely on the bike frame. For speed, we use a
+							hall-effect sensor and magnets on the wheel, so I made a small case to hold the sensor
+							without damaging the bike, touching the wheel or moving in the event of an impact. For the
+							safety aspect, we opted to take a cycling jacket and put LEDs inside to indicate whether the
+							cyclist was braking or turning to one side or the other. All this with a connector that also
+							uses magnets and an end-piece that I also made to allow you to get off the bike without
+							ripping out the cables. You can find the archive of this project on <a
+								href="https://github.com/ThibaultTostain/TIPE_velo">github</a>.
+						</p>
+					</div>
+					<div class="telephone">
+						<p>Cyclists are constantly on the lookout for ways to improve their performance, and there are
+							many technological tools available to help them do just that. One of them, the GPS monitor,
+							is particularly useful for tracking improvements over time by recording speed and distance
+							covered at each session. So our idea was to carry out the same actions, but without the GPS
+							coordinates. What's more, we wanted to add a safety dimension to our system. So in this
+							project, we have a central box on the one hand, and the sensors and lights on the other. The
+							central box was made using Creo, and has a ring of magnets underneath to hold it in place
+							and ensure it is correctly positioned by playing with the polarities of the magnets.</p>
+						<img class="ul_img projet_img" src="../img/moniteur_meca_ferme.jpg">
+						<p>On the top of the case, there's an opening that allows the screen to be seen while still
+							covering it, keeping the system airtight during a short shower. Finally, inside, there's the
+							pcb that I also made, which I explain in more detail in the 'electricity' section of the
+							portfolio.
+							</br>The sensors also had to be held securely on the bike frame. For speed, we use a
+							hall-effect sensor and magnets on the wheel, so I made a small case to hold the sensor
+							without damaging the bike, touching the wheel or moving in the event of an impact. For the
+							safety aspect, we opted to take a cycling jacket and put LEDs inside to indicate whether the
+							cyclist was braking or turning to one side or the other. All this with a connector that also
+							uses magnets and an end-piece that I also made to allow you to get off the bike without
+							ripping out the cables. You can find the archive of this project on <a
+								href="https://github.com/ThibaultTostain/TIPE_velo">github</a>.</p>
+					</div>
+					</br></br>
+					<a class="meca_a_down_big bouton_lien" href="#projet_meca">Shrink</a>
+				</div>
+			</li>
+			<li class="ul_li projet_part meca_b">
+				<div class="petit">
+					<a class="meca_b_up_small" href="#projet_meca">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Flashlight</h1>
+					<img class="ul_img projet_img" src="../img/lampe_torche.jpg">
+					<p class="ul_p projet_txt">As part of the training for new members of a robotics club that I have
+						the honour of chairing, I devised a series of 3 sessions to create a flashlight with
+						'intelligent' functions. For the mechanical part, I co-created a housing for this torch with a
+						friend who is a member of the club.</p>
+					<a class="meca_b_up_med bouton_lien" href="#projet_meca">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Flashlight</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>To do a complete training course on robotics, you have to take into account the 3
+									main areas: the electrical part, which I did on Proteus, the programming part, which
+									I did on Arduino, and finally the mechanical part, explained here, which I did on
+									Creo.
+									</br>The aim of this project was to discover the CREO software that we use in our
+									school. The part was designed to perform all the basic functions of the software
+									while remaining feasible in less than 2 hours for beginners.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/lampe_torche.jpg">
+							</li>
+						</ul>
+						<p>I therefore co-created a file of around twenty pages with a friend to explain all the steps
+							required to make this part and to ensure, as manager of the overall project, that this
+							tutorial remained consistent with the others. The files are currently only available to club
+							members, but will be posted on the club's github page once the last typos have been
+							corrected.</p>
+					</div>
+					<div class="telephone">
+						<p>To do a complete training course on robotics, you have to take into account the 3 main areas:
+							the electrical part, which I did on Proteus, the programming part, which I did on Arduino,
+							and finally the mechanical part, explained here, which I did on Creo.
+							</br>The aim of this project was to discover the CREO software that we use in our school.
+							The part was designed to perform all the basic functions of the software while remaining
+							feasible in less than 2 hours for beginners.</p>
+						<img class="ul_img projet_img" src="../img/lampe_torche.jpg">
+						<p>I therefore co-created a file of around twenty pages with a friend to explain all the steps
+							required to make this part and to ensure, as manager of the overall project, that this
+							tutorial remained consistent with the others. The files are currently only available to club
+							members, but will be posted on the club's github page once the last typos have been
+							corrected.</p>
+					</div>
+					</br></br>
+					<a class="meca_b_down_big bouton_lien" href="#projet_meca">Shrink</a>
+				</div>
+			</li>
+			<li class="ul_li projet_part meca_c">
+				<div class="petit">
+					<a class="meca_c_up_small" href="#projet_meca">+</a>
+				</div>
+				<div class="moyen">
+					<h1 class="ul_h1 projet_titre">Controller</h1>
+					<img class="ul_img projet_img" src="../img/presentation_freecad_02.webp">
+					<p class="ul_p projet_txt">The video game controller is one of the most widespread controllers, but
+						integrating it into DIY or Arduino projects can prove laborious for simple prototyping stages.
+						So I decided to make my own controller with the aim of making it easily accessible on Arduino.
+					</p>
+					<a class="meca_c_up_med bouton_lien" href="#projet_meca">Enlarge</a>
+				</div>
+				<div class="grand">
+					<h1 class="ul_h1 projet_titre">Controller</h1>
+					<div class="ordinateur">
+						<ul class="ul_box explication_box">
+							<li class="ul_li explication_part txt">
+								<p>Controllers are now a ubiquitous part of our lives, whether in factories or in games
+									rooms. They are a very practical way of controlling a system effortlessly, and are
+									often designed to match the way you use it. Whether it's the joystick for your
+									television, a games console or a lift, they've all been created and designed with a
+									particular need in mind. In this project, my aim was to make it easy to integrate
+									joysticks and buttons into Arduino projects, so I decided to take the format of a
+									controller that fits comfortably in the hand and is familiar to many people: the
+									video game controller.</p>
+							</li>
+							<li class="ul_li explication_part img">
+								<img class="ul_img projet_img" src="../img/presentation_freecad_02.webp">
+							</li>
+						</ul>
+						<p>To create this joystick I used FreeCad 0.20 to make the file accessible and editable by
+							everyone. What's more, it's a parametric modelling program that lets you make changes to the
+							first actions you perform. Finally, to make it more user-friendly, I decided to use curved
+							functions that could be parameterised and therefore adjusted according to need.
+							</br>Other designs are in the pipeline, some to increase the number of actuators, others to
+							make them easier to build without the need for 3D printing, and still others to enable them
+							to be used in more complex projects with more appropriate connectors.
+							</br> In any case, you can follow the progress of this project on <a
+								href="https://github.com/ThibaultTostain/controllers">github</a>.</p>
+					</div>
+					<div class="telephone">
+						<p>Controllers are now a ubiquitous part of our lives, whether in factories or in games rooms.
+							They are a very practical way of controlling a system effortlessly, and are often designed
+							to match the way you use it. Whether it's the joystick for your television, a games console
+							or a lift, they've all been created and designed with a particular need in mind. In this
+							project, my aim was to make it easy to integrate joysticks and buttons into Arduino
+							projects, so I decided to take the format of a controller that fits comfortably in the hand
+							and is familiar to many people: the video game controller.</p>
+						<img class="ul_img projet_img" src="../img/presentation_freecad_02.webp">
+						<p>To create this joystick I used FreeCad 0.20 to make the file accessible and editable by
+							everyone. What's more, it's a parametric modelling program that lets you make changes to the
+							first actions you perform. Finally, to make it more user-friendly, I decided to use curved
+							functions that could be parameterised and therefore adjusted according to need.
+							</br>Other designs are in the pipeline, some to increase the number of actuators, others to
+							make them easier to build without the need for 3D printing, and still others to enable them
+							to be used in more complex projects with more appropriate connectors.
+							</br>In any case, you can follow the progress of this project on <a
+								href="https://github.com/ThibaultTostain/controllers">github</a>.
+						</p>
+					</div>
+					</br></br>
+					<a class="meca_c_down_big bouton_lien" href="#projet_meca">Shrink</a>
+				</div>
+			</li>
 		</ul>
+	</ul>
 
 
-<!--
+	<!--
 *
 *
 *
@@ -492,38 +727,40 @@ Contact
 -->
 
 
-		<ul id="contact" class="contact_box">
-            
-            <div>
-                <h1>About me</h1>
-                <p>I am an electrical enthusiast, studying
-electrical engineering. In my free time
-I study robotics and I am the president
-of the robotics club at my school.
-Besides electricity, I like sports,
-especially cycling and climbing.
-But also art, I have an instagram
-page where I post some works.</p>
-            </div>
-            
-            <h1> Contact : </h1>
-			<p>  Would you like to contact me? Nothing could be easier, just send me an e-mail or send me a whatsapp message.</p>
-			<li class="article_part">
-				<a class="bouton_contact">E-mail : thibault.tostain@insa-strasbourg.fr</a>
-			</li>
-			<li class="article_part">
-				<a class="bouton_contact">Whatsapp : + 33 (0)6 37 24 53 48</a>
-			</li>
-			<li class="article_part">
-				<a href="https://www.linkedin.com/in/thibault-tostain-42887920b/?locale=en_US" class="bouton_contact">LinkedIn : Thibault Tostain</a>
-			</li>
-			<li class="article_part">
-				<a href="../pdf/CV_Thibault_Tostain.pdf" class="bouton_contact">My CV</a>
-			</li>
-		</ul>
+	<ul id="contact" class="contact_box">
 
-	</body>
+		<div>
+			<h1>About me</h1>
+			<p>I am an electrical enthusiast, studying
+				electrical engineering. In my free time
+				I study robotics and I am the president
+				of the robotics club at my school.
+				Besides electricity, I like sports,
+				especially cycling and climbing.
+				But also art, I have an instagram
+				page where I post some works.</p>
+		</div>
 
-	<script src="../script.js"> </script>
+		<h1> Contact : </h1>
+		<p> Would you like to contact me? Nothing could be easier, just send me an e-mail or send me a whatsapp message.
+		</p>
+		<li class="article_part">
+			<a class="bouton_contact">E-mail : thibault.tostain@insa-strasbourg.fr</a>
+		</li>
+		<li class="article_part">
+			<a class="bouton_contact">Whatsapp : + 33 (0)6 37 24 53 48</a>
+		</li>
+		<li class="article_part">
+			<a href="https://www.linkedin.com/in/thibault-tostain-42887920b/?locale=en_US"
+				class="bouton_contact">LinkedIn : Thibault Tostain</a>
+		</li>
+		<li class="article_part">
+			<a href="../pdf/CV_Thibault_Tostain.pdf" class="bouton_contact">My CV</a>
+		</li>
+	</ul>
+
+</body>
+
+<script src="../script.js"> </script>
 
 </html>
