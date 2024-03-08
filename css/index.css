@@ -164,6 +164,10 @@ a {
 	max-width: 60%;
 }
 
+iframe{
+	aspect-ratio: 16 / 9;
+}
+
 @media screen and (max-width: 1200px) {
 	.header .header_titre {
 		font-size: 35px;
